@@ -1,5 +1,5 @@
 {
-  "name": "baselinecode-express-project",
+  "name": "@baselinecode/express-project",
   "version": "1.0.0",
   "keywords": [
     "node",
@@ -13,7 +13,7 @@
   "author": "Kevin Jakubauskas",
   "type": "commonjs",
   "bin": {
-    "baselinecode-express-project": "./main.js"
+    "@baselinecode/express-project": "./main.js"
   },
   "scripts": {
     "build": "tsx build.mts",
@@ -36,21 +36,21 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.1.0",
-    "@eslint/js": "9.10.0",
+    "@eslint/js": "9.11.1",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/cross-spawn": "6.0.6",
-    "@types/node": "22.5.4",
+    "@types/node": "22.6.1",
     "@types/yauzl": "2.10.3",
-    "@typescript-eslint/eslint-plugin": "8.4.0",
-    "@typescript-eslint/parser": "8.4.0",
-    "esbuild": "0.23.1",
-    "eslint": "9.10.0",
+    "@typescript-eslint/eslint-plugin": "8.7.0",
+    "@typescript-eslint/parser": "8.7.0",
+    "esbuild": "0.24.0",
+    "eslint": "9.11.1",
     "eslint-plugin-prettier": "5.2.1",
-    "husky": "9.1.5",
+    "husky": "9.1.6",
     "prettier": "3.3.3",
     "prettier-plugin-packagejson": "2.5.2",
-    "tsx": "4.19.0",
-    "typescript": "5.5.4"
+    "tsx": "4.19.1",
+    "typescript": "5.6.2"
   },
   "engines": {
     "node": ">=22",
